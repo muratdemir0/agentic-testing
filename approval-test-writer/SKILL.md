@@ -1,3 +1,15 @@
+---
+name: approval-test-writer
+description: >
+  Writes language-agnostic approval tests that validate generated output by
+  comparing it against an approved file. Use when the request involves JSON,
+  HTML, PDF, receipts, invoices, reports, email bodies, templates, serializers,
+  or any output where "did this change?" is the meaningful question. Adapts to
+  the project's existing language and test framework. Triggers on: output, diff,
+  approved file, golden master, characterization, JSON, receipt, report, HTML,
+  PDF, template, serializer, snapshot, stable, noisy, scrub, diagnosability.
+---
+
 # Approval Test Writer
 
 ## Purpose

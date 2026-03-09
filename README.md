@@ -103,9 +103,9 @@ Use this when you are not sure which skill to use. Describe your testing need in
 Each skill is a standard `SKILL.md` file compatible with [skills.sh](https://skills.sh). Install individually:
 
 ```sh
-skills install github:muratdemir/agentic-testing/skills/acceptance-test-writer
-skills install github:muratdemir/agentic-testing/skills/approval-test-writer
-skills install github:muratdemir/agentic-testing/skills/router
+npx skills add muratdemir0/agentic-testing@acceptance-test-writer
+npx skills add muratdemir0/agentic-testing@approval-test-writer
+npx skills add muratdemir0/agentic-testing@router
 ```
 
 ## Future Scope

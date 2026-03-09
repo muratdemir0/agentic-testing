@@ -28,7 +28,7 @@ A collection of agent skills for writing acceptance tests and approval tests, wi
 Each skill lives at:
 
 ```
-skills/<skill-name>/SKILL.md
+<skill-name>/SKILL.md
 ```
 
 Every `SKILL.md` must include these sections in order:
@@ -49,8 +49,8 @@ Do not add sections not in this list without discussion.
 
 ## Adding a New Skill
 
-1. Create a directory under `skills/` with a lowercase hyphenated name
-2. Write `SKILL.md` following the structure above
+1. Create a directory at the repo root with a lowercase hyphenated name
+2. Write `SKILL.md` following the structure above, including the required YAML frontmatter (`name` and `description`)
 3. Add at least one example under `examples/` if the skill has non-obvious usage
 4. Add the skill to the skills table in `README.md`
 5. Open a pull request with a one-paragraph description of the skill's purpose and target user

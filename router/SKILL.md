@@ -1,3 +1,14 @@
+---
+name: router
+description: >
+  Routes testing requests to the correct skill: acceptance-test-writer for
+  behavior-focused tests, approval-test-writer for output-focused tests. Use
+  when unsure which test type applies, or when a request involves both behavior
+  and output. Recommends both skills in sequence when needed. Triggers on: any
+  testing request that combines behavioral and output concerns, or when the user
+  is uncertain which testing approach to use.
+---
+
 # Router
 
 ## Purpose

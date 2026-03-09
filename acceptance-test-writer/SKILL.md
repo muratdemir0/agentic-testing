@@ -1,3 +1,14 @@
+---
+name: acceptance-test-writer
+description: >
+  Writes Playwright-first, behavior-focused acceptance tests for user journeys,
+  business rules, and visible outcomes. Use when the request involves checkout,
+  login, onboarding, payment success/failure, coupon validation, form submission,
+  access control, redirects, or any browser-based end-to-end flow. Triggers on:
+  behavior, flow, journey, user can, business rule, end-to-end, checkout, login,
+  onboarding, payment, redirect, confirmation, navigation.
+---
+
 # Acceptance Test Writer
 
 ## Purpose
